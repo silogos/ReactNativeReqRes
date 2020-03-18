@@ -15,6 +15,39 @@ export const Shadow = elevation => ({
 });
 
 export const Styles = StyleSheet.create({
+  // image
+  imageCover: {
+    flex: 1, 
+    width: null,
+    height: null,
+    resizeMode: 'cover'
+  },
+  imageContain: {
+    flex: 1, 
+    width: null,
+    height: null,
+    resizeMode: 'contain'
+  },
+  imageStretch: {
+    flex: 1, 
+    width: null,
+    height: null,
+    resizeMode: 'stretch'
+  },
+  imageCenter: {
+    flex: 1, 
+    width: null,
+    height: null,
+    resizeMode: 'center'
+  },
+  imageRepeat: {
+    flex: 1, 
+    width: null,
+    height: null,
+    resizeMode: 'repeat'
+  },
+  
+  // fonts
   fontBody1: {
     fontFamily: Fonts.OpenSans.Regular,
     fontSize: Sizes.fontSizeBase,
